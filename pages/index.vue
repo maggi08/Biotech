@@ -1,6 +1,8 @@
 <template>
   <div class="font-lake">
     <BHeader />
+    <div class=""></div>
+    <p></p>
   </div>
 </template>
 
