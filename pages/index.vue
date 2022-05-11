@@ -1,8 +1,7 @@
 <template>
   <div class="font-lake">
     <BHeader />
-    <div class=""></div>
-    <p></p>
+    <MainHero />
   </div>
 </template>
 
@@ -12,4 +11,8 @@ export default {
 };
 </script>
 
-<style lang="post"></style>
+<style lang="postcss">
+* {
+  @apply text-black-100;
+}
+</style>

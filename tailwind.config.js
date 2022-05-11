@@ -17,6 +17,9 @@ module.exports = {
     },
     boxShadow: {},
     colors: {
+      white: {
+        100: "#ffffff",
+      },
       black: {
         100: "#353535",
       },
