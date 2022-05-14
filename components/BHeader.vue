@@ -11,42 +11,42 @@
         <nav class="w-full max-w-full" style="max-width: 876px">
           <ul class="flex items-center justify-between">
             <li
-              class="mx-1 pt-3 border-t border-black-100 w-32 hover:border-green-100"
+              class="mx-1 pt-3 transition-all border-t border-black-100 w-32 hover:border-green-100 hover:text-green-100"
             >
               <nuxt-link to="/" class="font-medium text-lg leading-6">
                 {{ $t("menu1") }}
               </nuxt-link>
             </li>
             <li
-              class="mx-1 pt-3 border-t border-black-100 w-32 hover:border-green-100"
+              class="mx-1 pt-3 transition-all border-t border-black-100 w-32 hover:border-green-100 hover:text-green-100"
             >
               <nuxt-link to="/" class="font-medium text-lg leading-6">
                 {{ $t("menu2") }}
               </nuxt-link>
             </li>
             <li
-              class="mx-1 pt-3 border-t border-black-100 w-32 hover:border-green-100"
+              class="mx-1 pt-3 transition-all border-t border-black-100 w-32 hover:border-green-100 hover:text-green-100"
             >
               <nuxt-link to="/" class="font-medium text-lg leading-6">
                 {{ $t("menu3") }}
               </nuxt-link>
             </li>
             <li
-              class="mx-1 pt-3 border-t border-black-100 w-32 hover:border-green-100"
+              class="mx-1 pt-3 transition-all border-t border-black-100 w-32 hover:border-green-100 hover:text-green-100"
             >
               <nuxt-link to="/" class="font-medium text-lg leading-6">
                 {{ $t("menu4") }}
               </nuxt-link>
             </li>
             <li
-              class="mx-1 pt-3 border-t border-black-100 w-32 hover:border-green-100"
+              class="mx-1 pt-3 transition-all border-t border-black-100 w-32 hover:border-green-100 hover:text-green-100"
             >
               <nuxt-link to="/" class="font-medium text-lg leading-6">
                 {{ $t("menu5") }}
               </nuxt-link>
             </li>
             <li
-              class="mx-1 pt-3 border-t border-black-100 w-32 hover:border-green-100"
+              class="mx-1 pt-3 transition-all border-t border-black-100 w-32 hover:border-green-100 hover:text-green-100"
             >
               <nuxt-link to="/" class="font-medium text-lg leading-6">
                 {{ $t("menu6") }}

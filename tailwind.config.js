@@ -25,10 +25,13 @@ module.exports = {
       },
       green: {
         100: "#0D927D",
+        200: "rgb(13,146,125, 0.3)",
       },
     },
     extend: {},
   },
-  variants: {},
+  variants: {
+    border: ["hover"],
+  },
   plugins: [],
 };

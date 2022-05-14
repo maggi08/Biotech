@@ -1,7 +1,9 @@
 <template>
-  <div class="font-lake">
+  <div class="font-lake text-black-100 font-normal">
     <BHeader />
     <MainHero />
+    <MainAbout />
+    <MainTechnologies class="mt-28 pt-2" />
   </div>
 </template>
 
@@ -11,8 +13,4 @@ export default {
 };
 </script>
 
-<style lang="postcss">
-* {
-  @apply text-black-100;
-}
-</style>
+<style lang="postcss"></style>

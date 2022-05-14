@@ -1,6 +1,18 @@
 <template>
-  <section class="w-screen h-screen relative py-28">
-    <div class="container w-full h-full z-10">
+  <section id="about" class="w-full h-screen relative py-28">
+    <img
+      class="h-full absolute top-0 right-0"
+      style="z-index: -1"
+      src="@/assets/img/hero.png"
+      alt=""
+    />
+    <img
+      class="h-2/3 absolute top-0 right-0"
+      style="z-index: -1"
+      src="@/assets/img/pattern.png"
+      alt=""
+    />
+    <div class="container w-full h-full">
       <div
         class="w-full h-full my-auto flex flex-col justify-center"
         style="max-width: 588px"
@@ -16,16 +28,6 @@
         </h2>
       </div>
     </div>
-    <img
-      class="h-full absolute top-0 right-0"
-      src="@/assets/img/hero.png"
-      alt=""
-    />
-    <img
-      class="h-2/3 absolute top-0 right-0"
-      src="@/assets/img/pattern.png"
-      alt=""
-    />
   </section>
 </template>
 
