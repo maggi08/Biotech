@@ -3,7 +3,9 @@
     <div
       class="container w-full mx-auto flex items-center justify-between py-4"
     >
-      <img src="@/assets/img/logo.png" width="199" height="80" alt="logo" />
+      <nxut-link to="/" class="block" :style="`width: 200px; height: 80px`">
+        <img src="@/assets/img/logo.png" width="199" height="80" alt="logo" />
+      </nxut-link>
 
       <div
         class="flex items-center justify-between pt-3 text-black-100 ml-auto"

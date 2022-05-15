@@ -1,15 +1,12 @@
 <template>
   <div if="technologies" class="py-14 container flex items-center">
-    <div class="w-full pr-3">
-      <h2 class="text-5xl font-bold">Технологии</h2>
+    <div class="w-full pr-12">
+      <UiTitle> Технологии </UiTitle>
 
-      <p class="font-green-100 text-5xl font-bold">
-        {{ tab }}
-      </p>
       <UiTabs
         class="my-5"
         :tabs="['Нанотела', 'Машин. обучение', 'Технология 3', 'Технология 4']"
-        @tabChanges="changeTab"
+        @tabClicked="tabChanged"
       />
 
       <p class="font-medium">
@@ -19,6 +16,9 @@
         вариабельного домена антитела. Подобно целому антителу, оно способно
         избирательно связываться со специфическим антигеном. Читать больше
       </p>
+      <nuxt-link to="/technologies">
+        <UiButton class="mt-7"> Читать больше </UiButton>
+      </nuxt-link>
     </div>
     <div
       :style="`
@@ -42,8 +42,8 @@ export default {
     tab: 0,
   }),
   methods: {
-    changeTab(value) {
-      console.log(value);
+    tabChanged(value) {
+      this.tab = value;
     },
   },
 };

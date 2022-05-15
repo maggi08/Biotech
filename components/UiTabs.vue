@@ -11,7 +11,7 @@
       ]"
       @click="handleClick(index)"
     >
-      {{ item }} {{ value }} {{ tab }}
+      {{ item }}
     </div>
   </div>
 </template>
@@ -31,7 +31,7 @@ export default {
   methods: {
     handleClick(index) {
       this.tab = index;
-      this.$emit("tabChanges", index);
+      this.$emit("tabClicked", index);
     },
   },
 };

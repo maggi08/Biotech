@@ -1,0 +1,48 @@
+<template>
+  <div class="container">
+    <UiTitle>Новости</UiTitle>
+
+    <NewsComponent class="mt-12 pt-0.5" :news="news"></NewsComponent>
+
+    <nuxt-link to="/news" class="mt-12 flex items-center">
+      <!-- prettier-ignore -->
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="20" r="19.5" fill="white" stroke="#0D927D"/>
+        <path d="M29.7071 20.7071C30.0976 20.3166 30.0976 19.6834 29.7071 19.2929L23.3431 12.9289C22.9526 12.5384 22.3195 12.5384 21.9289 12.9289C21.5384 13.3195 21.5384 13.9526 21.9289 14.3431L27.5858 20L21.9289 25.6569C21.5384 26.0474 21.5384 26.6805 21.9289 27.0711C22.3195 27.4616 22.9526 27.4616 23.3431 27.0711L29.7071 20.7071ZM11 21H29V19H11V21Z" fill="#0D927D"/>
+      </svg>
+      <span class="ml-3 text-green-100 text-lg font-medium"> Все новости </span>
+    </nuxt-link>
+  </div>
+</template>
+
+<script>
+export default {
+  data: () => ({
+    news: [
+      {
+        date: "08 октября 2021, 11:31",
+        title:
+          "Ботаники правят миром! Ученый-генетик рассказал, как воспитать умных детей",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies in elit ipsum ut in. Accumsan, nisi, fermentum est maecenas nec, quis bibendum turpis...",
+      },
+      {
+        date: "08 октября 2021, 11:31",
+        title:
+          "Ботаники правят миром! Ученый-генетик рассказал, как воспитать умных детей",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies in elit ipsum ut in. Accumsan, nisi, fermentum est maecenas nec, quis bibendum turpis...",
+      },
+      {
+        date: "08 октября 2021, 11:31",
+        title:
+          "Ботаники правят миром! Ученый-генетик рассказал, как воспитать умных детей",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies in elit ipsum ut in. Accumsan, nisi, fermentum est maecenas nec, quis bibendum turpis...",
+      },
+    ],
+  }),
+};
+</script>
+
+<style></style>
