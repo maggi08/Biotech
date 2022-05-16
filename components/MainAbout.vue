@@ -1,7 +1,7 @@
 <template>
   <section class="bg-green-100 py-24">
-    <div class="container py-2 text-white-100">
-      <UiTitle class="text-white-100"> О компании </UiTitle>
+    <div class="container py-2 text-white">
+      <UiTitle class="text-white"> О компании </UiTitle>
       <p class="mt-5 text-xl leading-9">
         Компания ARLAN BIOTECH была создана в 2021 году как результат успешных
         лабораторных исследований в области биогенетики для создания тест-систем

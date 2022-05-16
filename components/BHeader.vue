@@ -1,11 +1,11 @@
 <template>
-  <header class="fixed top-0 left-0 w-full bg-white-100 z-50">
+  <header class="fixed top-0 left-0 w-full bg-white z-50">
     <div
       class="container w-full mx-auto flex items-center justify-between py-4"
     >
-      <nxut-link to="/" class="block" :style="`width: 200px; height: 80px`">
+      <nuxt-link to="/" class="block" :style="`width: 200px; height: 80px`">
         <img src="@/assets/img/logo.png" width="199" height="80" alt="logo" />
-      </nxut-link>
+      </nuxt-link>
 
       <div
         class="flex items-center justify-between pt-3 text-black-100 ml-auto"

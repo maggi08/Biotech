@@ -8,6 +8,7 @@ html {
 
 html,
 body {
+  scroll-behavior: smooth;
   height: 100%;
   font-family: "TT Lake";
 }
