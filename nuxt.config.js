@@ -55,7 +55,15 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ["@nuxtjs/i18n"],
+  modules: [
+    "@nuxtjs/i18n",
+    [
+      "vue-scrollto/nuxt",
+      {
+        offset: -212,
+      },
+    ],
+  ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},

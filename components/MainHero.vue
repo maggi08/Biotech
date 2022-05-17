@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="w-full h-screen relative py-28">
+  <section class="w-full h-screen relative py-28">
     <img
       class="h-full absolute top-0 right-0"
       style="z-index: -1"

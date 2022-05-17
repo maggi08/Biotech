@@ -15,42 +15,66 @@
             <li
               class="mx-1 pt-3 transition-all border-t border-black-100 w-32 hover:border-green-100 hover:text-green-100"
             >
-              <nuxt-link to="/" class="font-medium text-lg leading-6">
+              <nuxt-link
+                v-scroll-to="'#about'"
+                to="/#about"
+                class="font-medium text-lg leading-6"
+              >
                 {{ $t("menu1") }}
               </nuxt-link>
             </li>
             <li
               class="mx-1 pt-3 transition-all border-t border-black-100 w-32 hover:border-green-100 hover:text-green-100"
             >
-              <nuxt-link to="/" class="font-medium text-lg leading-6">
+              <nuxt-link
+                v-scroll-to="'#technologies'"
+                to="/#technologies"
+                class="font-medium text-lg leading-6"
+              >
                 {{ $t("menu2") }}
               </nuxt-link>
             </li>
             <li
               class="mx-1 pt-3 transition-all border-t border-black-100 w-32 hover:border-green-100 hover:text-green-100"
             >
-              <nuxt-link to="/" class="font-medium text-lg leading-6">
+              <nuxt-link
+                v-scroll-to="'#projects'"
+                to="/#projects"
+                class="font-medium text-lg leading-6"
+              >
                 {{ $t("menu3") }}
               </nuxt-link>
             </li>
             <li
               class="mx-1 pt-3 transition-all border-t border-black-100 w-32 hover:border-green-100 hover:text-green-100"
             >
-              <nuxt-link to="/" class="font-medium text-lg leading-6">
+              <nuxt-link
+                v-scroll-to="'#news'"
+                to="/#news"
+                class="font-medium text-lg leading-6"
+              >
                 {{ $t("menu4") }}
               </nuxt-link>
             </li>
             <li
               class="mx-1 pt-3 transition-all border-t border-black-100 w-32 hover:border-green-100 hover:text-green-100"
             >
-              <nuxt-link to="/" class="font-medium text-lg leading-6">
+              <nuxt-link
+                v-scroll-to="'#clients'"
+                to="/#clients"
+                class="font-medium text-lg leading-6"
+              >
                 {{ $t("menu5") }}
               </nuxt-link>
             </li>
             <li
               class="mx-1 pt-3 transition-all border-t border-black-100 w-32 hover:border-green-100 hover:text-green-100"
             >
-              <nuxt-link to="/" class="font-medium text-lg leading-6">
+              <nuxt-link
+                v-scroll-to="'#contacts'"
+                to="/#contacts"
+                class="font-medium text-lg leading-6"
+              >
                 {{ $t("menu6") }}
               </nuxt-link>
             </li>
@@ -79,10 +103,18 @@
             RU
           </div>
 
-          <!-- prettier-ignore -->
-          <svg width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M4.73814 4.77322C4.88845 4.90339 5.11155 4.90339 5.26186 4.77322L9.38512 1.20237C9.66508 0.959918 9.49362 0.5 9.12326 0.5H0.876738C0.506384 0.5 0.334915 0.959918 0.614877 1.20237L4.73814 4.77322Z" fill="#0D927D"/>
-        </svg>
+          <svg
+            width="10"
+            height="5"
+            viewBox="0 0 10 5"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4.73814 4.77322C4.88845 4.90339 5.11155 4.90339 5.26186 4.77322L9.38512 1.20237C9.66508 0.959918 9.49362 0.5 9.12326 0.5H0.876738C0.506384 0.5 0.334915 0.959918 0.614877 1.20237L4.73814 4.77322Z"
+              fill="#0D927D"
+            />
+          </svg>
         </div>
       </div>
     </div>

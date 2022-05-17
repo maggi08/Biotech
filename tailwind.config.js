@@ -34,7 +34,10 @@ module.exports = {
     extend: {},
   },
   variants: {
-    border: ["hover"],
+    border: ["hover", "active", "disabled"],
+    borderColor: ["hover", "active", "disabled"],
+    textColor: ["hover", "active", "disabled"],
+    backgroundColor: ["active"],
   },
   plugins: [],
 };

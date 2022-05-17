@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <BHeader />
-    <main class="min-h-screen">
+    <main class="min-h-screen" :class="{ 'py-16': $route.path !== '/' }">
       <Nuxt />
     </main>
     <BFooter />

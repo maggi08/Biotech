@@ -1,5 +1,5 @@
 <template>
-  <div id="clients" class="container">
+  <div class="container">
     <UiTitle> Клиенты</UiTitle>
 
     <div class="flex items-center justify-between mt-14 h-full">
